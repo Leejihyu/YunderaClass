@@ -7,7 +7,7 @@ services:
     user: 0:0
     
     
-    image: lscr.io/linuxserver/app:5.1.2
+    image: lscr.io/linuxserver/qbittorrent:5.1.2
     
     container_name: qbittorrent
     restart: unless-stopped
